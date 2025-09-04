@@ -53,6 +53,29 @@ const Skills = () => {
           </p>
         </div>
 
+        {/* Experience & Stats */}
+        <div className="mb-20 grid grid-cols-2 md:grid-cols-4 gap-8">
+          {[
+            { label: "Years Experience", value: "5+" },
+            { label: "Projects Completed", value: "50+" },
+            { label: "Happy Clients", value: "30+" },
+            { label: "Technologies", value: "20+" }
+          ].map((stat, index) => (
+            <div
+              key={stat.label}
+              className="text-center glass-card p-6 rounded-xl hover:scale-105 transition-all duration-300"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">
+                {stat.value}
+              </div>
+              <div className="text-muted-foreground text-sm md:text-base">
+                {stat.label}
+              </div>
+            </div>
+          ))}
+        </div>
+
         {/* Skills Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
@@ -86,29 +109,6 @@ const Skills = () => {
                     {skill}
                   </span>
                 ))}
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Additional Stats */}
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {[
-            { label: "Years Experience", value: "5+" },
-            { label: "Projects Completed", value: "50+" },
-            { label: "Happy Clients", value: "30+" },
-            { label: "Technologies", value: "20+" }
-          ].map((stat, index) => (
-            <div
-              key={stat.label}
-              className="text-center glass-card p-6 rounded-xl hover:scale-105 transition-all duration-300"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">
-                {stat.value}
-              </div>
-              <div className="text-muted-foreground text-sm md:text-base">
-                {stat.label}
               </div>
             </div>
           ))}

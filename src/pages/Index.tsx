@@ -10,8 +10,8 @@ const Index = () => {
       <Navigation />
       <main>
         <Hero />
-        <Skills />
         <Projects />
+        <Skills />
         <Contact />
       </main>
       
