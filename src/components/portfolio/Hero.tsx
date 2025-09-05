@@ -1,8 +1,11 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-background.jpg';
+import { useTypewriter } from '@/hooks/useTypewriter';
 
 const Hero = () => {
+  const { displayText: nameText } = useTypewriter("Hi, I'm Yash Ratan", 150);
+  
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -37,8 +40,10 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Hi, I'm{' '}
-            <span className="gradient-text">Yash Ratan</span>
+            <span className="gradient-text">
+              {nameText}
+              <span className="animate-pulse">|</span>
+            </span>
           </h1>
 
           {/* Subtitle */}
