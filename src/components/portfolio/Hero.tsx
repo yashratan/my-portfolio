@@ -70,7 +70,7 @@ const Hero = () => {
               size="lg"
               className="border-white/20 hover:bg-white/10 px-8 py-6 text-lg"
             >
-              <a href="/resume.pdf" download aria-label="Download CV (PDF)">
+              <a href="/Resume_YashRatan.pdf" download aria-label="Download CV (PDF)">
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>
