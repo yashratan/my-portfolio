@@ -48,13 +48,13 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 (837) 704-1322",
+      href: "tel:+918377041322"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Bengaluru, India",
       href: "#"
     }
   ];
