@@ -43,7 +43,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fade-in">
-            Full Stack Developer & Tech Enthusiast
+            Product Manager & Tech Enthusiast
           </p>
 
           {/* Description */}
