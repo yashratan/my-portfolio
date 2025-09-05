@@ -1,8 +1,16 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-background.jpg';
+import { useTypewriter } from '@/hooks/useTypewriter';
 
 const Hero = () => {
+  const typewriterText = useTypewriter({
+    text: "I solve problems using technology, making customer experience smoother and better!",
+    typingSpeed: 120,
+    deletingSpeed: 80,
+    pauseDuration: 3000
+  });
+
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -52,8 +60,9 @@ const Hero = () => {
             using modern technologies. Passionate about clean code, innovative solutions, 
             and continuous learning.
           </p> */}
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in">
-            I solve problems using technology, making customer experience smoother and better!
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in min-h-[3.5rem] flex items-center justify-center">
+            {typewriterText}
+            <span className="ml-1 animate-pulse">|</span>
           </p>
 
           {/* Action Buttons */}
