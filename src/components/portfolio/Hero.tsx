@@ -47,10 +47,13 @@ const Hero = () => {
           </p>
 
           {/* Description */}
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in">
+          {/* <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in">
             I create beautiful, functional, and user-friendly web applications 
             using modern technologies. Passionate about clean code, innovative solutions, 
             and continuous learning.
+          </p> */}
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-in">
+            I solve problems using technology, making customer experience smoother and better!
           </p>
 
           {/* Action Buttons */}
