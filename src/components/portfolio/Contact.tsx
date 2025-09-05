@@ -42,8 +42,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john@portfolio.com",
-      href: "mailto:john@portfolio.com"
+      value: "yash.ratan97@gmail.com",
+      href: "mailto:yash.ratan97@gmail.com"
     },
     {
       icon: Phone,
@@ -81,7 +81,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:john@portfolio.com",
+      href: "mailto:yash.ratan97@gmail.com",
       color: "hover:text-red-400"
     }
   ];
