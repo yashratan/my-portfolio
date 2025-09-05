@@ -64,13 +64,16 @@ const Hero = () => {
               <ArrowDown className="ml-2 h-5 w-5" />
             </Button>
             
-            <Button 
-              variant="outline" 
-              size="lg" 
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
               className="border-white/20 hover:bg-white/10 px-8 py-6 text-lg"
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download CV
+              <a href="/resume.pdf" download aria-label="Download CV (PDF)">
+                <Download className="mr-2 h-5 w-5" />
+                Download CV
+              </a>
             </Button>
           </div>
 
