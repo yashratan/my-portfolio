@@ -1,43 +1,55 @@
-import { Code, Database, Globe, Smartphone, Cloud, Zap } from 'lucide-react';
+import { Code, Database, Globe, Cloud, Zap, BrainCircuit, BrainCog, Brain, Warehouse } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
     {
-      icon: Code,
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
-      description: "Creating responsive and interactive user interfaces"
+      icon: Warehouse,
+      title: "Market Analysis",
+      skills: ["A/B Testing", "GTM Strategy", "Market Research", "Data Analysis", "KPI analysis", "Pricing Strategy"],
+      description: "Collaborated with multiple stakeholders for product ideation and extensive market research"
     },
     {
-      icon: Database,
-      title: "Backend Development", 
-      skills: ["Node.js", "Python", "FastAPI", "Express", "PostgreSQL", "MongoDB"],
-      description: "Building robust server-side applications and APIs"
-    },
-    {
-      icon: Globe,
-      title: "Web Technologies",
-      skills: ["REST APIs", "GraphQL", "WebSockets", "JWT", "OAuth", "WebRTC"],
-      description: "Modern web protocols and communication standards"
+      icon: BrainCircuit,
+      title: "Artifical Intelligence",
+      skills: ["OpenAI API", "Large Language Models (LLMs)", "Vector DBs", "Prompt Engineering"],
+      description: "Integrating AI features and models into applications to enhance customer experience"
     },
     {
       icon: Cloud,
       title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Git", "Linux"],
-      description: "Scalable deployment and infrastructure management"
+      skills: ["GCP", "Docker", "Kubernetes (GKE)", "CI/CD", "Git", "Linux", "Terraform"],
+      description: "Scalable deployment and automation using cloud infrastructure management tools"
     },
-    {
-      icon: Smartphone,
-      title: "Mobile Development",
-      skills: ["React Native", "Flutter", "PWA", "Responsive Design"],
-      description: "Cross-platform mobile application development"
-    },
-    {
-      icon: Zap,
-      title: "Tools & Frameworks",
-      skills: ["Vite", "Webpack", "Jest", "Cypress", "Figma", "VS Code"],
-      description: "Development tools and productivity frameworks"
-    }
+    // {
+    //   icon: Globe,
+    //   title: "Web Technologies",
+    //   skills: ["REST APIs", "Python", "WebSockets", "PostgreSQL", "FastAPI", "ReactJS", "Typescript"],
+    //   description: "Modern web protocols and communication standards"
+    // }
+    // {
+    //   icon: BrainCog,
+    //   title: "Mobile Development",
+    //   skills: ["React Native", "Flutter", "PWA", "Responsive Design"],
+    //   description: "Cross-platform mobile application development"
+    // },
+    // {
+    //   icon: Database,
+    //   title: "Backend Development", 
+    //   skills: ["Node.js", "Python", "FastAPI", "Express", "PostgreSQL", "MongoDB"],
+    //   description: "Building robust server-side applications and APIs"
+    // },
+    // {
+    //   icon: Zap,
+    //   title: "Tools & Frameworks",
+    //   skills: ["Vite", "Webpack", "Jest", "Cypress", "Figma", "VS Code"],
+    //   description: "Development tools and productivity frameworks"
+    // },
+    // {
+    //   icon: Code,
+    //   title: "Frontend Development",
+    //   skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+    //   description: "Creating responsive and interactive user interfaces"
+    // }
   ];
 
   return (
@@ -56,9 +68,8 @@ const Skills = () => {
         {/* Experience & Stats */}
         <div className="mb-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { label: "Years Experience", value: "5+" },
-            { label: "Projects Completed", value: "50+" },
-            { label: "Happy Clients", value: "30+" },
+            { label: "Years Experience", value: "6+" },
+            { label: "Projects Completed", value: "10+" },
             { label: "Technologies", value: "20+" }
           ].map((stat, index) => (
             <div
