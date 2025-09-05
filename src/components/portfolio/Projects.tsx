@@ -74,7 +74,7 @@ const Projects = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            My <span className="gradient-text">Projects</span>
+            My Projects<span className="gradient-text"></span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A collection of projects that showcase my skills and passion for creating innovative solutions
