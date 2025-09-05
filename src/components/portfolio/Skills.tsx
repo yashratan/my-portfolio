@@ -46,7 +46,7 @@ const Skills = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            My <span className="gradient-text">Skills</span>
+            My Skills<span className="gradient-text"></span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             A comprehensive set of technologies and tools I use to bring ideas to life
