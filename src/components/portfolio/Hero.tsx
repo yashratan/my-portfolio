@@ -79,14 +79,20 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="flex justify-center space-x-6 animate-fade-in">
-            <Button variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
-              <Github className="h-6 w-6" />
+            <Button asChild variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
+              <a href="https://github.com/yashratan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github className="h-6 w-6" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
-              <Linkedin className="h-6 w-6" />
+            <Button asChild variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
+              <a href="https://www.linkedin.com/in/ratanyash/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Linkedin className="h-6 w-6" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
-              <Mail className="h-6 w-6" />
+            <Button asChild variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
+              <a href="mailto:yash.ratan97@gmail.com" aria-label="Email">
+                <Mail className="h-6 w-6" />
+              </a>
             </Button>
           </div>
         </div>
