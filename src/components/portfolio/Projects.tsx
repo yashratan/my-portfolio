@@ -4,9 +4,9 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product catalog, shopping cart, and payment processing.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      title: "Prompt Engineering",
+      description: "End-to-end AI solution to drive conversational AI analytics. Asseses agents in Customer Support on the basis of pre-defined KPIs, with an interactive dashboard in Power BI.",
+      technologies: ["Generative AI", "Python", "FastAPI", "Power BI"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=center",
@@ -14,9 +14,9 @@ const Projects = () => {
       date: "2024"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["React", "TypeScript", "WebSockets", "PostgreSQL", "FastAPI"],
+      title: "Real-Time Agent Assist",
+      description: "Enabled real-time assisting solutions for agent in customer support, using live transcriptions of the call, reducing their workload for mundane in-call and post-call activities.",
+      technologies: ["GPT-4o", "Python", "Azure Suite"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&crop=center",
@@ -24,9 +24,9 @@ const Projects = () => {
       date: "2023"
     },
     {
-      title: "AI Chat Interface",
-      description: "Modern chat interface with AI integration, featuring real-time messaging, file uploads, and intelligent conversation management.",
-      technologies: ["Next.js", "OpenAI API", "Supabase", "Tailwind CSS"],
+      title: "Conversational AI - Cloud Deployment",
+      description: "Led the implementation of microservices, built on springboot, on Google Cloud. Enabled monitoring functionalities to drive automated health checks on the systems.",
+      technologies: ["Docker", "Kubernetes", "AWS", "Prometheus", "Grafana"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop&crop=center",
@@ -34,34 +34,34 @@ const Projects = () => {
       date: "2024"
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      technologies: ["React", "Weather API", "Charts.js", "CSS3"],
+      title: "AWS Deployment",
+      description: "Deployed multiple microservices on AWS, using Docker and Kubernetes.",
+      technologies: ["Docker", "Kubernetes", "AWS"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop&crop=center",
       featured: false,
-      date: "2023"
+      date: "2021"
     },
     {
-      title: "Portfolio Website",
-      description: "Personal portfolio website showcasing projects and skills with modern design and smooth animations.",
-      technologies: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center",
-      featured: false,
-      date: "2023"
-    },
-    {
-      title: "Fitness Tracker",
-      description: "Mobile-first fitness tracking application with workout plans, progress tracking, and social features.",
-      technologies: ["React Native", "Firebase", "Redux", "Chart.js"],
+      title: "Software Engineering - Pricing Model",
+      description: "Designed & developed a pricing model to enable customers to quickly estimate product pricing, based on efforts.",
+      technologies: ["Python", "Django", "PostgreSQL", "GCP"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
       featured: false,
       date: "2022"
+    },
+    {
+      title: "Portfolio Website",
+      description: "Personal portfolio website showcasing projects and skills with modern design and smooth animations.",
+      technologies: ["Vibe Coding", "React", "Typescript", "Vite", "Tailwind CSS"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/example",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center",
+      featured: false,
+      date: "2025"
     }
   ];
 
@@ -143,7 +143,7 @@ const Projects = () => {
                   </div>
 
                   {/* Links */}
-                  <div className="flex gap-2">
+                  {/* <div className="flex gap-2">
                     <Button size="sm" className="flex-1">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Live Demo
@@ -152,7 +152,7 @@ const Projects = () => {
                       <Github className="h-4 w-4 mr-2" />
                       Code
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
@@ -175,14 +175,14 @@ const Projects = () => {
                     <Calendar className="h-4 w-4 mr-2" />
                     {project.date}
                   </div>
-                  <div className="flex gap-2">
+                  {/* <div className="flex gap-2">
                     <Button size="icon" variant="ghost" className="h-8 w-8">
                       <ExternalLink className="h-4 w-4" />
                     </Button>
                     <Button size="icon" variant="ghost" className="h-8 w-8">
                       <Github className="h-4 w-4" />
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Title */}
