@@ -36,7 +36,7 @@ const About = () => {
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Having worked on technologies like AI to enhance customer experience using large language models, I have successfuly
-                created end-to-end pipelines and deployed them on cloud environments like GCP and Azure. Through these projects, I
+                created end-to-end pipelines and deployed them on cloud environments like GCP and Azure. Through these automations, I
                 have generated $110k+ in Annual Recurring Revenue (ARR).
               </p>
               {/* <p className="text-muted-foreground mb-6 leading-relaxed">
