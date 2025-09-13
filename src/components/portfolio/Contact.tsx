@@ -146,7 +146,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="glass-card p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold mb-6 text-foreground">Send a Message</h3>
+            <h3 className="text-2xl font-bold mb-6 text-foreground">Send a Message (WIP)</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
