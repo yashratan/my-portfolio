@@ -35,7 +35,9 @@ const About = () => {
                 into experiences using cutting-edge innovations.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Having worked on technologies like AI to enhance customer experience using large language models, I have successfuly created end-to-end pipelines and deployed them on cloud environments like GCP and Azure. Through these projects, I have generated $110k+ in Annual Recurring Revenue (ARR).
+                Having worked on technologies like AI to enhance customer experience using large language models, I have successfuly
+                created end-to-end pipelines and deployed them on cloud environments like GCP and Azure. Through these projects, I
+                have generated $110k+ in Annual Recurring Revenue (ARR).
               </p>
               {/* <p className="text-muted-foreground mb-6 leading-relaxed">
                 My journey began with a curiosity about how technology can improve people's lives. Today, I combine 
@@ -49,7 +51,7 @@ const About = () => {
           </div>
 
           {/* Values Section */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 glass-card hover:scale-105 transition-transform">
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                 <User className="h-8 w-8 text-primary" />
@@ -89,7 +91,7 @@ const About = () => {
                 My enthusiasm for technology and continuous learning drives everything I do.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
