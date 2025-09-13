@@ -32,7 +32,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="w-32 h-32 mx-auto mb-8 mt-12">
             <Avatar className="w-32 h-32 border-4 border-primary/20">
-              <AvatarImage src="/my-photo.jpg" alt="Profile picture" />
+              <AvatarImage src="/profile-photo.jpeg" alt="Profile picture" />
               <AvatarFallback className="bg-gradient-primary text-primary-foreground text-4xl font-bold">
                 YR
               </AvatarFallback>
