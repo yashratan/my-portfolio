@@ -30,9 +30,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Profile Image */}
-          <div className="w-32 h-32 mx-auto mb-8 mt-12">
-            <Avatar className="w-32 h-32 border-4 border-primary/20">
-              <AvatarImage src="/my-photo.jpg" alt="Profile picture" />
+          <div className="w-32 h-42 mx-auto mb-8 mt-12">
+            <Avatar className="w-32 h-42 border-4 border-primary/20">
+              <AvatarImage src="/my-photo.jpg" alt="Profile picture" className="object-cover" />
               <AvatarFallback className="bg-gradient-primary text-primary-foreground text-4xl font-bold">
                 YR
               </AvatarFallback>
