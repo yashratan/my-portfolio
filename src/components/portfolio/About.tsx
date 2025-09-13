@@ -18,9 +18,11 @@ const About = () => {
             {/* Profile Section */}
             <div>
               <div className="w-48 h-48 mx-auto md:mx-0 mb-8 rounded-full bg-gradient-primary p-1">
-                <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-6xl font-bold gradient-text">
-                  YR
-                </div>
+                <img 
+                  src="/profile-photo.jpeg" 
+                  alt="Profile photo" 
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
             </div>
 
