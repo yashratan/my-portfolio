@@ -32,13 +32,16 @@ const About = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 I am passionate about building products, with a deep love for creating innovative solutions that bridge the gap between technology
                 and user experience. With over 6+ years of experience in business and technology consulting, I specialize in transforming complex problems
-                into experiences using cutting-edge technologies.
+                into experiences using cutting-edge innovations.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
+                Having worked on technologies like AI to enhance customer experience using large language models, I have successfuly created end-to-end pipelines and deployed them on cloud environments like GCP and Azure. Through these projects, I have generated $110k+ in Annual Recurring Revenue (ARR).
+              </p>
+              {/* <p className="text-muted-foreground mb-6 leading-relaxed">
                 My journey began with a curiosity about how technology can improve people's lives. Today, I combine 
                 strategic thinking with technical expertise to deliver products that not only meet business objectives 
                 but also create meaningful experiences for users.
-              </p>
+              </p> */}
               <p className="text-muted-foreground leading-relaxed">
                 Outside work, I am passionate about reading, travelling, and sports, particularly cricket and badminton.
               </p>
