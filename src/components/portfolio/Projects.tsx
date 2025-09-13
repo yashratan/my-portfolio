@@ -11,7 +11,7 @@ const Projects = () => {
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=center",
       featured: true,
-      date: "2024"
+      date: "2025"
     },
     {
       title: "Real-Time Agent Assist",
@@ -31,7 +31,7 @@ const Projects = () => {
       githubUrl: "https://github.com/example",
       image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop&crop=center",
       featured: true,
-      date: "2024"
+      date: "2023"
     },
     {
       title: "AWS Deployment",
