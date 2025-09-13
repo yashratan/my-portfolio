@@ -85,7 +85,7 @@ const Hero = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex justify-center space-x-6 animate-fade-in">
+          {/* <div className="flex justify-center space-x-6 animate-fade-in">
             <Button variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
               <Github className="h-6 w-6" />
             </Button>
@@ -95,7 +95,7 @@ const Hero = () => {
             <Button variant="ghost" size="icon" className="hover:text-primary hover:scale-110 transition-all">
               <Mail className="h-6 w-6" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
 
