@@ -8,9 +8,9 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
             About Me
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          {/* <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Get to know the person behind the projects and discover what drives my passion for technology and innovation.
-          </p>
+          </p> */}
         </div>
 
         <div className="max-w-6xl mx-auto">
@@ -26,11 +26,11 @@ const About = () => {
 
             {/* About Content */}
             <div>
-              <h3 className="text-2xl font-bold mb-6">Hello, I'm Yash Ratan</h3>
+              {/* <h3 className="text-2xl font-bold mb-6">Hello, I'm Yash Ratan</h3> */}
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                I'm a passionate Product Manager and Tech Enthusiast with a deep love for creating innovative solutions 
-                that bridge the gap between technology and user experience. With years of experience in the tech industry, 
-                I specialize in transforming complex problems into elegant, user-friendly solutions.
+                I am passionate about building products, with a deep love for creating innovative solutions that bridge the gap between technology
+                and user experience. With over 6+ years of experience in business and technology consulting, I specialize in transforming complex problems
+                into experiences using cutting-edge technologies.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 My journey began with a curiosity about how technology can improve people's lives. Today, I combine 
@@ -38,8 +38,7 @@ const About = () => {
                 but also create meaningful experiences for users.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not working on exciting projects, you can find me exploring the latest tech trends, 
-                contributing to open-source projects, or sharing knowledge with the developer community.
+                Outside work, I am passionate about reading, travelling, and sports, particularly cricket and badminton.
               </p>
             </div>
           </div>
