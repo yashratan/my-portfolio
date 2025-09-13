@@ -1,30 +1,9 @@
-import { ArrowDown, Download, Github, Linkedin, Mail, Camera } from 'lucide-react';
+import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { Input } from '@/components/ui/input';
-import { useState, useRef } from 'react';
 import heroImage from '@/assets/hero-background.jpg';
 
 const Hero = () => {
-  const [profileImage, setProfileImage] = useState<string>('');
-  const fileInputRef = useRef<HTMLInputElement>(null);
-
-  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const result = e.target?.result as string;
-        setProfileImage(result);
-      };
-      reader.readAsDataURL(file);
-    }
-  };
-
-  const triggerFileUpload = () => {
-    fileInputRef.current?.click();
-  };
-
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -50,29 +29,14 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Image Upload */}
-          <div className="relative w-32 h-32 mx-auto mb-8 group cursor-pointer" onClick={triggerFileUpload}>
-            <Avatar className="w-32 h-32 border-4 border-primary/20 hover:border-primary/40 transition-all">
-              <AvatarImage src={profileImage} alt="Profile picture" />
+          {/* Profile Image */}
+          <div className="w-32 h-32 mx-auto mb-8">
+            <Avatar className="w-32 h-32 border-4 border-primary/20">
+              <AvatarImage src="/my-image.jpg" alt="Profile picture" />
               <AvatarFallback className="bg-gradient-primary text-primary-foreground text-4xl font-bold">
                 YR
               </AvatarFallback>
             </Avatar>
-            
-            {/* Upload overlay */}
-            <div className="absolute inset-0 bg-black/50 rounded-full opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-              <Camera className="h-8 w-8 text-white" />
-            </div>
-            
-            {/* Hidden file input */}
-            <Input
-              ref={fileInputRef}
-              type="file"
-              accept="image/*"
-              onChange={handleFileUpload}
-              className="hidden"
-              aria-label="Upload profile picture"
-            />
           </div>
 
           {/* Main Heading */}
